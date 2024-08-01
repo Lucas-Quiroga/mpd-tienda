@@ -1,21 +1,21 @@
 import type { DataTienda } from "@/types/types";
 
 export const CATEGORY_SELECT: string[] = [
-  "perfumes",
-  "fragrances",
-  "furniture",
-  "beauty",
-  "groceries",
+  "Soquetes",
+  "Accesorios",
+  "Calcomanias",
+  "420",
+  "Medias 3/4",
 ];
 
-export const LOCAL_STORAGE_KEY: string = "cart";
+export const LOCAL_STORAGE_KEY: string = "cart_mpd";
 
 export const API_URL: string = "https://api.whatsapp.com/send";
-export const PHONE_NUMBER: string = "";
+export const PHONE_NUMBER: string = "+5491121611635";
 
 export const DATA_TIENDA: DataTienda = {
   header: {
-    title: "Tienda",
+    title: "Medias Por Doquier",
   },
   categories: CATEGORY_SELECT,
   faqs: [

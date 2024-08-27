@@ -20,24 +20,29 @@ export const DATA_TIENDA: DataTienda = {
   categories: CATEGORY_SELECT,
   faqs: [
     {
-      question: "Lorem ipsum dolor sit amet?",
+      question: "Métodos de pago?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Transferencia bancaria, mercado pago o efectivo al momento de la entrega.",
     },
     {
-      question: "Lorem ipsum dolor sit amet?",
+      question: "Envíos?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Envío a domicilio con motomensajería de confianza - Envíos a domicilio con uber flex - Puntos de encuentro únicamente en Av. San Martín y Av. Crovara - Retiro por domicilio (ciudad madero). Cualquier método de envío es coordinado al momento del pago.",
     },
     {
-      question: "Lorem ipsum dolor sit amet?",
+      question: "Hacen stickers personalizados?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Por el momento no contamos con este servicio pero estamos trabajando para ello.",
     },
     {
-      question: "Lorem ipsum dolor sit amet?",
+      question: "Que talles son las medias?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Todas nuestras medias abarcan de un único talle para adulto que abarca desde un 33 a un 45 inclusive.",
+    },
+    {
+      question: "Políticas de cambio y trabajo",
+      answer:
+        "No realizamos cambios. Y el pedido para ser reservado o guardado debe ser abonado en su totalidad o el 50%.",
     },
   ],
   contact: {

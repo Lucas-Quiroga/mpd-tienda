@@ -13,6 +13,7 @@ import { MdOutlineLogout } from "react-icons/md";
 import { SiSimpleanalytics } from "react-icons/si";
 import { IoSettingsOutline } from "react-icons/io5";
 import { FiBox } from "react-icons/fi";
+import { FaQuestion } from "react-icons/fa";
 
 const iconComponents = {
   TfiPanel,
@@ -21,6 +22,7 @@ const iconComponents = {
   SiSimpleanalytics,
   IoSettingsOutline,
   FiBox,
+  FaQuestion,
 };
 
 interface NavLink {

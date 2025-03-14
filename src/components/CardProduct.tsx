@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import type { Product } from "@/types/types";
 import {
   Card,
@@ -35,7 +35,7 @@ interface CardProductProps {
   product: Product;
 }
 
-const CardProduct: React.FC<CardProductProps> = ({ product }) => {
+const CardProduct: React.FC<CardProductProps> = memo(({ product }) => {
   const $cartItems = useStore<MapStore<Cart>>(cartItems);
   const [quantity, setQuantity] = useState<number>(getQuantity(product.id!));
   const [isOpen, setIsOpen] = useState(false);
@@ -85,6 +85,7 @@ const CardProduct: React.FC<CardProductProps> = ({ product }) => {
               src={product.image}
               alt={product.name}
               className="max-w-full max-h-[70vh] object-contain"
+              loading="lazy"
             />
           </div>
           <DialogFooter>
@@ -155,6 +156,6 @@ const CardProduct: React.FC<CardProductProps> = ({ product }) => {
       </Card>
     </>
   );
-};
+});
 
 export default CardProduct;

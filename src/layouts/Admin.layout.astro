@@ -2,7 +2,7 @@
 const title = "Admin";
 import "@/styles/globals.css";
 import { getAuthSession } from "@/services/getAuthSession";
-import ViewTransitions from "astro/components/ViewTransitions.astro";
+import { ClientRouter } from "astro:transitions";
 import type { DecodedIdToken } from "firebase-admin/auth";
 import Aside from "@/components/Aside.astro";
 import ThemeScript from "@/components/ThemeScript.astro";
@@ -16,7 +16,7 @@ const session: DecodedIdToken | null = await getAuthSession(Astro.cookies);
     <meta name="robots" content="noindex, nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
-    <ViewTransitions />
+    <ClientRouter />
     <ThemeScript />
   </head>
 

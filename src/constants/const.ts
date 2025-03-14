@@ -6,6 +6,7 @@ export const CATEGORY_SELECT: string[] = [
   "Calcomanias",
   "420",
   "Medias 3/4",
+  "Tarjetas",
 ];
 
 export const LOCAL_STORAGE_KEY: string = "cart_mpd";

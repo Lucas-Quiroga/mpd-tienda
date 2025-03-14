@@ -9,11 +9,11 @@ export interface Props {
 
 import "../styles/globals.css";
 import SeoMeta from "@/components/SeoMeta.astro";
-import ViewTransitions from "astro/components/ViewTransitions.astro";
 import Aside from "@/components/Aside.astro";
 import { getAuthSession } from "@/services/getAuthSession";
 import type { DecodedIdToken } from "firebase-admin/auth";
 import ThemeScript from "@/components/ThemeScript.astro";
+import { ClientRouter } from "astro:transitions";
 
 const { title, description, image, canonicalURL, keywords } = Astro.props;
 
@@ -29,7 +29,7 @@ const session: DecodedIdToken | null = await getAuthSession(Astro.cookies);
       canonicalURL={canonicalURL}
       keywords={keywords}
     />
-    <ViewTransitions />
+    <ClientRouter />
     <ThemeScript />
   </head>
   <body class="h-full">

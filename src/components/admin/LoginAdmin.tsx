@@ -20,10 +20,8 @@ import type { SubmitHandler } from "react-hook-form";
 import {
   getAuth,
   inMemoryPersistence,
-  setPersistence,
   browserSessionPersistence,
   type Auth,
-  type User,
 } from "firebase/auth";
 import app from "@/firebase/client";
 import { Spinner } from "../ui/spinner";

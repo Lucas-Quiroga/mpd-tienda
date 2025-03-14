@@ -4,8 +4,8 @@ import { jsx, jsxs } from 'react/jsx-runtime';
 import * as React from 'react';
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { ChevronDown } from 'lucide-react';
-import { c as cn, D as DATA_TIENDA } from '../chunks/ThemeScript_B1KfZH_o.mjs';
-import { $ as $$Layout } from '../chunks/Layout_DWfGByaq.mjs';
+import { c as cn, D as DATA_TIENDA } from '../chunks/ThemeScript_CoEJhq7_.mjs';
+import { $ as $$Layout } from '../chunks/Layout_0qBJD-TZ.mjs';
 export { renderers } from '../renderers.mjs';
 
 const Accordion = AccordionPrimitive.Root;

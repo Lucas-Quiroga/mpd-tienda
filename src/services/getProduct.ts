@@ -1,6 +1,6 @@
 import { app } from "@/firebase/server";
 import { getFirestore } from "firebase-admin/firestore";
-import { type Product } from "@/types/types";
+
 
 //funcion para obtener un producto
 

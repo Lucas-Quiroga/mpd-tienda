@@ -1,6 +1,6 @@
 import { a as createComponent, r as renderComponent, e as renderTemplate } from '../chunks/astro/server_DCqJloi2.mjs';
 import 'kleur/colors';
-import { $ as $$Admin } from '../chunks/Admin.layout_DqoiuGx-.mjs';
+import { $ as $$Admin } from '../chunks/Admin.layout_uGAoUIhi.mjs';
 import { jsx, jsxs } from 'react/jsx-runtime';
 export { renderers } from '../renderers.mjs';
 

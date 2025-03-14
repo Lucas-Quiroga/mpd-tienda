@@ -1,12 +1,12 @@
 import { a as createComponent, m as maybeRenderHead, r as renderComponent, e as renderTemplate, c as createAstro, j as renderTransition } from '../chunks/astro/server_DCqJloi2.mjs';
 import 'kleur/colors';
-import { $ as $$Layout } from '../chunks/Layout_DWfGByaq.mjs';
+import { $ as $$Layout } from '../chunks/Layout_0qBJD-TZ.mjs';
 import { jsxs, jsx } from 'react/jsx-runtime';
+import { D as DATA_TIENDA, B as Button, u as updateSearchParams, c as cn, L as LOCAL_STORAGE_KEY, f as formatter } from '../chunks/ThemeScript_CoEJhq7_.mjs';
+import { S as Select, a as SelectTrigger, b as SelectValue, c as SelectContent, d as SelectItem, P as PaginationComponent, M as ModeToggle, g as getPaginatedProducts } from '../chunks/getPaginatedProducts_K3TYJzJE.mjs';
+import { IoReload } from 'react-icons/io5';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { D as DATA_TIENDA, B as Button, u as updateSearchParams, c as cn, L as LOCAL_STORAGE_KEY, f as formatter } from '../chunks/ThemeScript_B1KfZH_o.mjs';
-import { S as Select, a as SelectTrigger, b as SelectValue, c as SelectContent, d as SelectItem, P as PaginationComponent, M as ModeToggle, g as getPaginatedProducts } from '../chunks/getPaginatedProducts_CpzCEi13.mjs';
-import { IoReload } from 'react-icons/io5';
 import { useStore } from '@nanostores/react';
 import * as SheetPrimitive from '@radix-ui/react-dialog';
 import { cva } from 'class-variance-authority';

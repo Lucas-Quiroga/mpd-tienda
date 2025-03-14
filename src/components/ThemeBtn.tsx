@@ -47,15 +47,15 @@ export function ModeToggle() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
-          Claro
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>
-          Oscuro
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>
-          Sistema
-        </DropdownMenuItem>
+      <DropdownMenuItem onClick={() => setTheme("light")} disabled={theme === "light"}>
+  Claro
+</DropdownMenuItem>
+<DropdownMenuItem onClick={() => setTheme("dark")} disabled={theme === "dark"}>
+  Oscuro
+</DropdownMenuItem>
+<DropdownMenuItem onClick={() => setTheme("system")} disabled={theme === "system"}>
+  Sistema
+</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

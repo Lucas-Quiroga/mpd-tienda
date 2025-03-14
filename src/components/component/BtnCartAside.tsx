@@ -18,7 +18,6 @@ import { removeCartItem } from "@/cartStore";
 import { getTotalQuantity, clearCart, getTotalPrice } from "@/cartStore";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import type { CartItem } from "@/types/types";
-import { API_URL, PHONE_NUMBER } from "@/constants/const";
 import { DATA_TIENDA } from "@/constants/const";
 import type { MapStore } from "nanostores";
 

@@ -6,7 +6,7 @@
 import { defineMiddleware } from "astro:middleware";
 import { app } from "@/firebase/server";
 import micromatch from "micromatch";
-import { getAuth, type DecodedIdToken, UserRecord } from "firebase-admin/auth";
+import { getAuth, type DecodedIdToken } from "firebase-admin/auth";
 import { type AstroCookies } from "astro";
 import type { MiddlewareHandler } from "astro";
 
@@ -28,7 +28,7 @@ async function verifySession(
       sessionCookie
     );
 
-    const user: UserRecord = await auth.getUser(decodedCookie.uid);
+    const user = await auth.getUser(decodedCookie.uid);
     return user ? decodedCookie : null;
   } catch {
     return null;

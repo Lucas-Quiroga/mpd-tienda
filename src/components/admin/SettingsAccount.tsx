@@ -29,7 +29,6 @@ const SettingsAccount = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
     reset,
   } = useForm<AdminUpdate>({
     resolver: zodResolver(updateAdminSchema),

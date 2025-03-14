@@ -14,7 +14,7 @@ const POST = async ({ request }) => {
     const decodedToken = await auth.verifyIdToken(idToken);
     const uid = decodedToken.uid;
     const data = await request.json();
-    const { currentPassword, newPassword, repeatNewPassword, name } = data;
+    const { newPassword, name } = data;
     if (newPassword) {
       try {
         await auth.updateUser(uid, {

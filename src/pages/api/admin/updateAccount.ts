@@ -23,7 +23,7 @@ export const POST: APIRoute = async ({ request }) => {
 
     /* Obtener los datos del cuerpo JSON */
     const data = await request.json();
-    const { currentPassword, newPassword, repeatNewPassword, name } = data;
+    const { newPassword, name } = data;
 
     /* Actualizar la contraseña si se proporciona */
     if (newPassword) {

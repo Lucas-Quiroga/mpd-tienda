@@ -41,6 +41,7 @@ const metadata = {
 <Layout {...metadata}>
   <script
     type="application/ld+json"
+    is:inline
     set:html={JSON.stringify(metadata.schema)}
   />
   <Faqs client:visible />

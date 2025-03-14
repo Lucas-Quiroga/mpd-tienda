@@ -17,8 +17,6 @@ import {
   CartesianGrid,
   XAxis,
   YAxis,
-  Tooltip,
-  Legend,
   Bar,
   BarChart,
   Line,
@@ -32,7 +30,6 @@ import {
 } from "@/components/ui/chart";
 import { Button } from "@/components/ui/button";
 import { FaArrowLeft } from "react-icons/fa";
-import { analytics } from "@/firebase/client";
 import { logEvent, getAnalytics, isSupported } from "firebase/analytics";
 
 const chartConfig = {

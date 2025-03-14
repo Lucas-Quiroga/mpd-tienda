@@ -1,11 +1,11 @@
 import { c as createAstro, a as createComponent, m as maybeRenderHead, r as renderComponent, i as renderScript, e as renderTemplate, f as addAttribute } from '../../chunks/astro/server_DCqJloi2.mjs';
 import 'kleur/colors';
-import { $ as $$Admin } from '../../chunks/Admin.layout_DqoiuGx-.mjs';
+import { $ as $$Admin } from '../../chunks/Admin.layout_uGAoUIhi.mjs';
 import { jsx, jsxs } from 'react/jsx-runtime';
 import * as React from 'react';
 import { useState, useCallback, useMemo } from 'react';
-import { c as cn, D as DATA_TIENDA, B as Button, u as updateSearchParams, d as buttonVariants, f as formatter } from '../../chunks/ThemeScript_B1KfZH_o.mjs';
-import { M as ModeToggle, S as Select, a as SelectTrigger, b as SelectValue, c as SelectContent, d as SelectItem, P as PaginationComponent, g as getPaginatedProducts } from '../../chunks/getPaginatedProducts_CpzCEi13.mjs';
+import { c as cn, D as DATA_TIENDA, B as Button, u as updateSearchParams, d as buttonVariants, f as formatter } from '../../chunks/ThemeScript_CoEJhq7_.mjs';
+import { M as ModeToggle, S as Select, a as SelectTrigger, b as SelectValue, c as SelectContent, d as SelectItem, P as PaginationComponent, g as getPaginatedProducts } from '../../chunks/getPaginatedProducts_K3TYJzJE.mjs';
 import { IoReload } from 'react-icons/io5';
 import * as AlertDialogPrimitive from '@radix-ui/react-alert-dialog';
 export { renderers } from '../../renderers.mjs';

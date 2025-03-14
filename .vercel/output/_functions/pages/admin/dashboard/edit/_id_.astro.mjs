@@ -2,7 +2,7 @@ import { c as createAstro, a as createComponent, r as renderComponent, e as rend
 import 'kleur/colors';
 import { a as app } from '../../../../chunks/server_P5MSvK9A.mjs';
 import { getFirestore } from 'firebase-admin/firestore';
-import { $ as $$Admin } from '../../../../chunks/Admin.layout_DqoiuGx-.mjs';
+import { $ as $$Admin } from '../../../../chunks/Admin.layout_uGAoUIhi.mjs';
 export { renderers } from '../../../../renderers.mjs';
 
 const getProduct = async (id) => {
